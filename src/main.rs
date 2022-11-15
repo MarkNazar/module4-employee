@@ -39,7 +39,6 @@ loop {
     };
 
     fn calculate_salary(e_type: &String) -> u32{
-        println!("{}", e_type);
         match e_type.trim(){
             "Junior Engineer" => 50000,
             "Senior Engineer" => 60000,
